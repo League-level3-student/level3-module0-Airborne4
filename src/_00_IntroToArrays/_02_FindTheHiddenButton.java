@@ -2,19 +2,19 @@ package _00_IntroToArrays;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Random;
-	
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+
+import org.jointheleague.graphical.robot.Robot;
 
 /* Run the FindHiddenButton.jar to see the finished product. */
 
 public class _02_FindTheHiddenButton implements ActionListener{
 	JFrame window;
 	JPanel panel;
-	
+
 	//1. create an array of JButtons. Don't initialize it yet.
 	
 	//2 create an integer variable called hiddenButton
